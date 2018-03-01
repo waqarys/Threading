@@ -1,4 +1,4 @@
-package com.pluralsight.executors;
+package com.waqar.executors;
 
 import java.net.URL;
 import java.util.Arrays;
