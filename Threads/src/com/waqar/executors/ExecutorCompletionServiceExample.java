@@ -53,5 +53,6 @@ public class ExecutorCompletionServiceExample {
 		ExecutorCompletionServiceExample service = new ExecutorCompletionServiceExample();
 		service.callAllSites();
 		service.retrieveUrls();
+		service.pool.shutdown();
 	}
 }
