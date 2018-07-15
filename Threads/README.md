@@ -29,3 +29,16 @@ BlockingQueue doesn’t accept null values and throw NullPointerException if you t
 BlockingQueue implementations are thread-safe. 
 All queuing methods are atomic in nature and use internal locks or other forms of concurrency control.
 ```
+
+4. What is Callable and future ?
+```
+Java 5 introduced java.util.concurrent.Callable interface in concurrency package that is similar to Runnable interface 
+but it can return any Object and able to throw Exception.
+```
+
+5. What is FutureTask class
+```
+FutureTask is base concrete implementation of Future interface and provides asynchronous processing. 
+It contains the methods to start and cancel a task and also methods 
+that can return the state of the FutureTask as whether it’s completed or cancelled. 
+```
